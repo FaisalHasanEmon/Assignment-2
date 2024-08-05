@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.work-sans-font {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.header-container {
+  height: 700px;
+  background: linear-gradient(
+    180deg,
+    rgb(17, 17, 17),
+    rgba(119, 119, 119, 0) 100%
+  );
+}
+/* Shared Styles Starts */
+.display-flex {
+  display: flex;
+}
+.max-width {
+  max-width: 1060px;
+}
+.container-center {
+  margin: 0 auto;
+}
+
+.orange {
+  color: rgb(230, 83, 60);
+}
+.white {
+  color: rgb(255, 255, 255);
+}
+.off-white {
+  color: rgba(255, 255, 255, 0.5);
+}
+/* Shared Styles Ends*/
+
+/* Header Section Starts */
+/* Navbar Section */
+.nav-container {
+  justify-content: space-between;
+  /* border: 1px solid red; */
+  padding-top: 50px;
+  align-items: center;
+}
+.nav-name {
+  font-style: italic;
+  font-size: 2.25rem;
+  font-weight: 600;
+}
+
+.nav-btn {
+  gap: 48px;
+  padding: 2px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 50px;
+}
+.nav-button {
+  width: 92px;
+  height: 38px;
+  padding: 8px 20px;
+  border-radius: 50px;
+  border: none;
+  font-size: 1.125 rem;
+  font-weight: 600;
+  background-color: transparent;
+  cursor: pointer;
+}
+#home-bg {
+  background-color: rgb(230, 83, 60);
+}
+.ham-btn {
+  display: none;
+}
+/* Header Section Ends */

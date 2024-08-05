@@ -1,0 +1,11 @@
+@media screen and (max-width: 576px) {
+  .max-width {
+    max-width: 353px;
+  }
+  .nav-btn {
+    display: none;
+  }
+  .ham-btn {
+    display: block;
+  }
+}
