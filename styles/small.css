@@ -18,6 +18,8 @@
   .btn {
     width: 169px;
     height: 54px;
+    font-size: 1.125rem;
+    font-weight: 600;
   }
   /* Banner Section */
   .bn-title {
@@ -32,6 +34,7 @@
   .bn-image {
     width: 353px;
     height: 588px;
+    margin-top: 8%;
   }
   .bn-card-1 {
     width: 146px;
@@ -56,5 +59,17 @@
   #three-fifty {
     font-size: 1.13rem;
   }
-  /* Header Section Starts */
+  /* Header Section Ends */
+  /* Habit Section Starts */
+  .habit-cards {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .habit-content {
+    margin-top: 3%;
+  }
+  .habit-title > h2 {
+    font-size: 2rem;
+    font-weight: 900;
+  }
+  /* Habit Section Ends */
 }
