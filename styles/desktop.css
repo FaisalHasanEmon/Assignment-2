@@ -67,6 +67,15 @@
   border: 1px solid rgb(255, 255, 255);
   margin-left: 14px;
 }
+.title {
+  font-size: 3rem;
+  font-weight: 900;
+}
+.title-content {
+  font-size: 0.875rem;
+  font-weight: 400;
+  margin-top: 14px;
+}
 /* Shared Styles Ends*/
 
 /* Header Section Starts */
@@ -196,15 +205,6 @@
   text-align: center;
   padding-top: 10%;
 }
-.habit-title > h2 {
-  font-size: 3rem;
-  font-weight: 900;
-}
-.habit-title > p {
-  font-size: 0.875rem;
-  font-weight: 400;
-  margin-top: 14px;
-}
 .habit-cards {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -235,4 +235,35 @@
   font-weight: 400;
 }
 /* Habits Section Style Ends */
+
+/* Run an extra mile section starts */
+.run {
+  background-color: rgb(34, 34, 34);
+  padding: 30px 32px 30px 54px;
+  margin-top: 10%;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 18px;
+}
+.run-text {
+  width: 443px;
+}
+.run-text > p {
+  margin-top: 14px;
+}
+.run-text > button {
+  margin-top: 34px;
+}
+.run-img {
+  width: 366px;
+  height: 312px;
+  border-radius: 18px;
+  background-image: url("../assets/run.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 330%;
+  background-position-x: 68%;
+  background-position-y: 30%;
+}
+/* Run an extra mile section ends */
 /* Main Section Styles Ends */

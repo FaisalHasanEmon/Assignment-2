@@ -3,7 +3,8 @@
   .max-width {
     max-width: 353px;
   }
-  .bn-container {
+  .bn-container,
+  .run {
     flex-direction: column;
   }
 
@@ -20,6 +21,14 @@
     height: 54px;
     font-size: 1.125rem;
     font-weight: 600;
+  }
+  .title {
+    font-size: 2rem;
+    font-weight: 900;
+  }
+  .title-content {
+    font-size: 0.875rem;
+    font-weight: 400;
   }
   /* Banner Section */
   .bn-title {
@@ -67,9 +76,27 @@
   .habit-content {
     margin-top: 3%;
   }
-  .habit-title > h2 {
-    font-size: 2rem;
-    font-weight: 900;
-  }
+
   /* Habit Section Ends */
+  /* Run an extra mile section starts */
+  .run {
+    padding: 30px 33px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+  .run-text {
+    width: 287px;
+  }
+  .run-text > h2 {
+    width: 100%;
+  }
+  .run-text > button {
+    width: 100%;
+  }
+  .run-img {
+    width: 287px;
+    height: 170px;
+  }
+  /* Run an extra mile section ends */
 }
