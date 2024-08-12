@@ -3,13 +3,58 @@
   .max-width {
     max-width: 353px;
   }
+  .bn-container {
+    flex-direction: column;
+  }
 
   /* Header Section Starts */
+  /* Navbar Section */
   .nav-btn {
     display: none;
   }
   .ham-btn {
     display: block;
+  }
+  .btn {
+    width: 169px;
+    height: 54px;
+  }
+  /* Banner Section */
+  .bn-title {
+    font-size: 2rem;
+  }
+  #shape {
+    font-size: 6.25rem;
+  }
+  .bn-btn {
+    display: flex;
+  }
+  .bn-image {
+    width: 353px;
+    height: 588px;
+  }
+  .bn-card-1 {
+    width: 146px;
+    height: 74px;
+    padding: 11px 16px;
+    margin-top: 47px;
+    margin-left: 194px;
+    margin-right: 13px;
+  }
+  #five-hundred {
+    font-size: 1.89rem;
+  }
+  .tutorial {
+    font-size: 0.614rem;
+  }
+  .bn-card-2 {
+    width: 146px;
+    height: 74px;
+    padding: 11px 16px;
+    margin: 149px 185px 150px 12px;
+  }
+  #three-fifty {
+    font-size: 1.13rem;
   }
   /* Header Section Starts */
 }
