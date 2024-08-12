@@ -1,11 +1,15 @@
 @media screen and (max-width: 576px) {
+  /* Shared Styles */
   .max-width {
     max-width: 353px;
   }
+
+  /* Header Section Starts */
   .nav-btn {
     display: none;
   }
   .ham-btn {
     display: block;
   }
+  /* Header Section Starts */
 }

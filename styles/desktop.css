@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Sacramento&family=Tangerine:wght@400;700&family=Urbanist:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -11,13 +11,19 @@
   font-weight: 400;
   font-style: normal;
 }
+.tangerine-regular {
+  font-family: "Tangerine", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
 
 .header-container {
-  height: 700px;
+  /* height: 700px; */
   background: linear-gradient(
     180deg,
     rgb(17, 17, 17),
-    rgba(119, 119, 119, 0) 100%
+    rgb(34, 31, 31),
+    rgb(17, 17, 17) 100%
   );
 }
 /* Shared Styles Starts */
@@ -39,6 +45,25 @@
 }
 .off-white {
   color: rgba(255, 255, 255, 0.5);
+}
+
+.btn {
+  width: 224px;
+  height: 54px;
+  border-radius: 50px;
+  background-color: rgb(230, 83, 60);
+  border: none;
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 1.15rem;
+  font-weight: 600;
+  text-align: center;
+  cursor: pointer;
+}
+#download {
+  background-color: transparent;
+  border: 1px solid rgb(255, 255, 255);
+  margin-left: 14px;
 }
 /* Shared Styles Ends*/
 
@@ -78,5 +103,82 @@
 }
 .ham-btn {
   display: none;
+}
+
+/* Banner Styles Starts */
+.banner-container {
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 32px;
+}
+.title {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 4.88rem;
+  font-weight: 900;
+  text-align: left;
+  line-height: 120%;
+}
+#shape {
+  font-family: "Tangerine", cursive;
+  color: rgb(255, 255, 255);
+  font-size: 12.5rem;
+  font-weight: 400;
+  text-align: left;
+}
+.title-content {
+  margin-top: 28px;
+  margin-bottom: 28px;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.banner-image {
+  /* border: 1px solid red; */
+  width: 349px;
+  height: 580px;
+  background-image: url("../assets/Images2.png");
+}
+.banner-card-1 {
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 12px;
+  backdrop-filter: blur(20px);
+  background: rgba(48, 48, 48, 0.54);
+  width: 206px;
+  height: 96px;
+  margin-top: 125px;
+  margin-right: -74px;
+  margin-left: 230px;
+  padding: 17px 17px;
+}
+#five-hundred {
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+.banner-card-2 {
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 12px;
+  backdrop-filter: blur(20px);
+  background: rgba(48, 48, 48, 0.54);
+  width: 206px;
+  height: 96px;
+  margin: 198px 256px 63px -113px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 23px;
+}
+#red-circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: red;
+}
+#three-fifty {
+  font-size: 1.5rem;
+  font-weight: 900;
+  margin-bottom: 8px;
+}
+.tutorial {
+  font-size: 1rem;
+  font-weight: 400;
 }
 /* Header Section Ends */
