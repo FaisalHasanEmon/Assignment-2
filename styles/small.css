@@ -1,7 +1,7 @@
 @media screen and (max-width: 576px) {
   /* Shared Styles */
   .max-width {
-    max-width: 353px;
+    max-width: 350px;
   }
   .bn-container,
   .run {
@@ -24,6 +24,10 @@
   }
   .title {
     font-size: 2rem;
+    font-weight: 900;
+  }
+  .title-2 {
+    font-size: 1.75;
     font-weight: 900;
   }
   .title-content {
@@ -99,4 +103,19 @@
     height: 170px;
   }
   /* Run an extra mile section ends */
+
+  /* BMI Calculator Section Starts */
+  .bmi-title {
+    width: 350px;
+    text-align: left;
+  }
+  /* .bmi-background {
+    background-color: rgb(34, 34, 34);
+    padding-top: 50px;
+    padding-bottom: 50px;
+  } */
+  /* .bmi-calculator{
+    max
+  } */
+  /* BMI Calculator Section Ends */
 }
