@@ -312,8 +312,9 @@
   padding-left: 15px;
 }
 .bmi-form {
-  width: 577px;
-  height: 386px;
+  width: 580px;
+  height: 389px;
+  /* border: 1px solid red; */
 }
 .bmi-calculation {
   margin-top: 34px;
@@ -333,7 +334,7 @@ select {
   color: rgba(255, 255, 255, 0.5);
 }
 .bmi-calculation select {
-  width: 283px;
+  /* width: 283px; */
   border-right: 10px solid transparent;
 }
 .bmi-calculation ::placeholder {
