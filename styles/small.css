@@ -8,7 +8,10 @@
   .bmi-calculator {
     flex-direction: column;
   }
-
+  .habit-cards,
+  .team-members {
+    grid-template-columns: repeat(1, 1fr);
+  }
   /* Header Section Starts */
   /* Navbar Section */
   .nav-btn {
@@ -75,9 +78,6 @@
   }
   /* Header Section Ends */
   /* Habit Section Starts */
-  .habit-cards {
-    grid-template-columns: repeat(1, 1fr);
-  }
   .habit-content {
     margin-top: 3%;
   }
@@ -141,4 +141,22 @@
     width: 99%;
   }
   /* BMI Calculator Section Ends */
+
+  /* Our Team Members Section Starts*/
+  .team {
+    margin-top: 20%;
+  }
+  .team-members {
+    margin-top: 10%;
+  }
+  .team-title {
+    width: 309px;
+  }
+  .team-title p {
+    margin-top: 5%;
+  }
+  .members {
+    width: 313px;
+  }
+  /* Our Team Members Section Starts*/
 }
