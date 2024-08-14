@@ -10,7 +10,8 @@
   }
   .habit-cards,
   .team-members,
-  .fitness {
+  .fitness,
+  .time-schedule {
     grid-template-columns: repeat(1, 1fr);
   }
   /* Header Section Starts */
@@ -106,6 +107,23 @@
   }
   /* Run an extra mile section ends */
 
+  /* Working Hour Section Starts */
+  .mob-days {
+    width: 100%;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    margin-top: 10px;
+    font-size: 1rem;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: block;
+  }
+  .mob-days p {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  /* Working Hour Section Ends */
   /* BMI Calculator Section Starts */
   .bmi-calculator {
     gap: 42px;
