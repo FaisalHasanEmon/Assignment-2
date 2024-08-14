@@ -48,6 +48,7 @@
 }
 .dark-black {
   background: rgb(0, 0, 0);
+  padding-bottom: 60px;
 }
 .btn {
   width: 224px;
@@ -410,3 +411,56 @@ select {
 }
 /* Our Team Section Ends */
 /* Main Section Styles Ends */
+
+/* Footer Section Starts */
+/* Conclusion Section Starts */
+footer {
+  background-color: rgb(34, 34, 34);
+  padding-top: 66px;
+}
+.fitness {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* border: 1px solid red; */
+  gap: 125px;
+  margin-bottom: 79px;
+}
+.fitness-title {
+  width: 443px;
+  height: 176px;
+  /* border: 1px solid orangered; */
+}
+.fitness-title h1 {
+  font-size: 4.375rem;
+  font-weight: 800;
+  font-style: italic;
+}
+.fitness-title p {
+  font-weight: 0.875rem;
+  font-weight: 400;
+}
+.fitness-content {
+  width: 181px;
+  height: 240px;
+  /* border: 1px solid yellow; */
+}
+.fitness-content h2 {
+  margin-bottom: 12px;
+  font-size: 2rem;
+}
+.fitness-content p {
+  margin-top: 20px;
+  font-size: 1.43rem;
+}
+/* Conclusion Section Ends */
+.copy-right {
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: 400;
+  padding-top: 36px;
+  padding-bottom: 36px;
+  border-top: 2px solid rgba(255, 255, 255, 0.1);
+}
+/* Copyright Section Starts */
+/* Copyright Section Ends */
+/* Footer Section Ends */
