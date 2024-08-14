@@ -272,6 +272,61 @@
 }
 /* Run an extra mile section ends */
 
+/* Working Hour Section Starts */
+.schedule {
+  margin-top: 100px;
+  background-color: rgb(34, 34, 34);
+  border-radius: 16px;
+  padding: 30px;
+}
+.day-schedule {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.days {
+  width: 860px;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 10px;
+  border: 2px solid white;
+  background-color: #3c3d37;
+}
+.days > button {
+  font-size: 1rem;
+}
+.time-schedule {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+}
+.schedule-card {
+  border: 1px solid white;
+  background-color: #1e201e;
+  box-shadow: 1px 1px 5px;
+  border-radius: 16px;
+  padding: 20px;
+  text-align: center;
+}
+.one {
+  font-size: 1rem;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.two {
+  margin-top: 15px;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+.three {
+  margin-top: 15px;
+  font-size: 1rem;
+  font-weight: 400;
+}
+/* Working Hour Section Ends */
+
 /* BMI Calculator Section Starts */
 .bmi {
   margin-top: 10%;
