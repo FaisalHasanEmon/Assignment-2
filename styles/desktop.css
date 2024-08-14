@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Sacramento&family=Tangerine:wght@400;700&family=Urbanist:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.cdnfonts.com/css/miama");
 * {
   margin: 0;
   padding: 0;
@@ -136,7 +137,8 @@
   line-height: 120%;
 }
 #shape {
-  font-family: "Tangerine", cursive;
+  /* font-family: "Tangerine", cursive; */
+  font-family: "Miama", sans-serif;
   color: rgb(255, 255, 255);
   font-size: 12.5rem;
   font-weight: 400;
@@ -482,6 +484,7 @@ footer {
   /* border: 1px solid red; */
   gap: 125px;
   margin-bottom: 79px;
+  padding-left: 10px;
 }
 .fitness-title {
   width: 443px;

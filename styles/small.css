@@ -16,6 +16,9 @@
   }
   /* Header Section Starts */
   /* Navbar Section */
+  .nav-container {
+    padding-right: 5px;
+  }
   .nav-btn {
     display: none;
   }
