@@ -9,7 +9,8 @@
     flex-direction: column;
   }
   .habit-cards,
-  .team-members {
+  .team-members,
+  .fitness {
     grid-template-columns: repeat(1, 1fr);
   }
   /* Header Section Starts */
@@ -159,4 +160,13 @@
     width: 313px;
   }
   /* Our Team Members Section Starts*/
+
+  /* Footer Section Starts */
+  .fitness {
+    gap: 30px;
+  }
+  .fitness-title {
+    width: 317px;
+  }
+  /* Footer Section Ends */
 }
